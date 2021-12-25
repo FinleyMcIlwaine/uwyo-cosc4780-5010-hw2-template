@@ -14,3 +14,6 @@ parse: bnfc
 
 compile: bnfc
 	@cabal run -v0 hw2
+
+compileDfa: bnfc
+	@cabal run -v0 hw2 -- -x

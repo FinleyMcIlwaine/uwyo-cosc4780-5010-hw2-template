@@ -19,3 +19,6 @@ parse: build bnfc
 
 compile: bnfc build
 	@java Main
+
+compileDfa: bnfc
+	@java Main -x
